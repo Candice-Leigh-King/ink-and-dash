@@ -1,24 +1,31 @@
+---
+layout: default
+banner_image: /images/banner.jpg
+about_image: /images/me.jpg
+story_image: /images/story.jpg
+services_image: /images/type.jpg
+---
 
 <!-- banner -->
-<section class="banner grid-center fixed">
+<section class="banner grid-center fixed" style="background-image: url('{{page.banner_image}}');">
   <div class="col-6_sm-12-middle centered">
-    <h2 class="big-bold"> This this a heading </h2>
-    <h3 class="not-bold"> This is a sub-heading </h3>
+    <h1 class=""> Ink & Dash</h1>
+    <h2 class="not-bold"> Copywriter for small businesses </h2>
   </div>
 </section>
 
 <!-- image and text  -->
 <section class="light-bg">
-  <div class="grid  flex-flip">
-    <div class="col-6_sm-12 bg-image">
+  <div class="grid flex-flip">
+    <div class="col-6_sm-12 image-bg" style="background-image: url('{{page.about_image}}');">
     </div>
     <div class="col-6_sm-12-middle padded" id="about">
       <h3> About me</h3>
       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
     </div>
   </div>
-  <div class="grid flex-flip">
-    <div class="col-6_sm-12 bg-image">
+  <div class="grid flex-flip" id="story">
+    <div class="col-6_sm-12 image-bg" style="background-image: url('{{page.story_image}}');">
     </div>
     <div class="col-6_sm-12-middle padded">
       <h3> My story </h3>
@@ -26,29 +33,30 @@
     </div>
   </div>
   <div class="grid flex-flip">
-    <div class="col-6_sm-12 bg-image">
+    <div class="col-6_sm-12 image-bg" style="background-image: url('{{page.services_image}}');">
     </div>
     <div class="col-6_sm-12-middle padded">
       <h3> What I Do </h3>
       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-      <a class="arrow" href="#"> Learn More </a>
+      <a class="button" href="/services"> Learn More </a>
     </div>
   </div>
 </section>
 
 <!-- google map -->
-<section class="grid-center padded text-featured" id="contact">
-    <div class="col-12 padded-2 center">
-        <h2 class="text-xl editable"> Find me. <span class="sm-block editable">Contact me.</span> </h2>
-    </div>
-    <div class="col-4_md-5_xs-12 padded-2 text-lato">
-        <p class="margin-b-0 editable"><strong>Mia the Happy Hippy </strong> </p>
-        <p class="editable"> 19 Mill Road, <br> Hillcrest, South Africa</p>
-        <p class="editable"> <em>Down the long driveway.</em> </p>
-        <p class="margin-b-0 text-bold editable"> <a href="mailto:info@cazfit.co.za">Email: info@cazfit.co.za</a></p>
-        <p class="text-bold editable"> <a href="tel:+278204950485">Phone: +27 82 049 5048</a></p>
-    </div>
-    <div class="col-6_md-7_xs-12 bg-image bg-map tall-50"><iframe class="editable" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.272468905837!2d30.763463315297297!3d-29.769761981983027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef6fb04ccf0f777%3A0x7130baee0294e87b!2s19%20Mill%20Rd%2C%20Hillcrest%2C%203650%2C%20South%20Africa!5e0!3m2!1sen!2ske!4v1626012722444!5m2!1sen!2ske" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe> </div>
+
+<section class="grid padded lightest-bg ">
+  <div class="col-8_sm-12-middle padded">
+    <h3> Where to find me </h3>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p> <strong> Email: </strong> hello@company.com </p>
+    <p> <strong> Phone: </strong> 0412 555 555 </p>
+    <p> <strong> Facebook: </strong> fb.com/companyname </p>
+  </div>
+  <div class="col-4_sm-12 shadow">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.420342995598!2d115.12927631440583!3d-8.651511390396642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd23879eae0a51f%3A0x6b09725f69f19992!2sThe+Shady+Shack!5e0!3m2!1sen!2sid!4v1560581894985!5m2!1sen!2sid"
+        width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
 </section>
 
 <!-- IG plug-ing -->
