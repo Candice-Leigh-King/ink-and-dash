@@ -142,6 +142,12 @@ header nav   {padding-top: 10%;}
   min-height: 100vh;
         }
 
+.banner-fixed {
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+        }
+
 .short-banner {
   background-size: cover;
   background-position: center;
@@ -202,6 +208,23 @@ header nav   {padding-top: 10%;}
 @media(max-width:768px) {
 
 
+h1 {font-size: 2rem;}
+
+h2 {font-size: 1.5rem;}
+
+h3 {font-size: 1.2rem;}
+
+h4 {font-size: 1.2rem;}
+
+p {font-size: 0.8rem;}
+
+
 .flex-flip{
   flex-direction: row;
+}
+
+.banner-fixed {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
