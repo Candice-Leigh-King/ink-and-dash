@@ -214,6 +214,7 @@ header nav   {padding-top: 10%;}
   position: fixed;
   color: #c8c4c4;
   line-height: 8px;
+  font-family: 'Alice', serif;
 
 }
 
@@ -235,7 +236,10 @@ header nav   {padding-top: 10%;}
   font-size: 2.5rem;
 }
 
-.mobile-menu p {font-size: 2rem;}
+.mobile-menu p {
+  font-size: 2rem;
+  font-family: 'Alice', serif;
+  font-weight: 100;}
 
 .mobile-menu {
   display: none;
@@ -243,15 +247,15 @@ header nav   {padding-top: 10%;}
 
 .cross {
   top:0;
-  right:0;
+  right:16px;
   z-index: 10;
   font-size: 0.9rem;
   padding:0% 1%;
   border-radius: 0%;
-  margin: 6%;
   position: fixed;
   font-weight: bold;
-  color: #adadad;}
+  color: #adadad;
+  padding: 0% 1%;}
 
 
 @media(min-width:769px){
