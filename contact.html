@@ -1,63 +1,59 @@
 ---
 layout: default
 ---
-
-<section class="grid padded darker-bg">
-  <div class="col-2"> </div>
-    <div class="col-8 centered padded centered">
-      <h1>contact</h1>
-    </div>
-  <div class="col-2"> </div>
-</section>
+<section class="padded  darker-bg">
+  <section class="grid-center">
+    <div class="col-2"> </div>
+      <div class="col-8 centered centered">
+        <h1>contact</h1>
+      </div>
+    <div class="col-2"> </div>
+  </section>
 
 <!-- form -->
-<section>
-  <section class="padded darker-bg">
+  <section class="grid-center padded-sides darker-bg">
 
     <form method="post" action="/success.html" class="enquiry capped-width">
 
-      <div class="grid padded">
-      <div class="col-2_sm-12 relative">
-        <h2 class="sm-bold vertical-form-text"> basic info </h2>
+      <div class="grid-center padded">
+        <div class="col-2_sm-12 relative">
+          <h2 class="vertical-form-text"> basic info </h2>
+        </div>
+        <div class="col-8_sm-12 padded-2">
+          <div class="floating-input">
+            <input type="text" name="name" placeholder="Your Name" class="input-text" required="">
+            <label class="input-label">Your Name</label>
+          </div>
+          <div class="floating-input">
+            <input type="text" name="email" placeholder="Your Email Address" class="input-text" required="">
+            <label class="input-label">Your Email Address</label>
+          </div>
+        </div>
       </div>
-
-      <div class="col-10_sm-12 padded-2">
-        <div class="floating-input">
-          <input type="text" name="name" placeholder="Your Name" class="input-text" required="">
-          <label class="input-label">Your Name</label>
+      <div class="grid-center padded-sides">
+        <div class="col-2_sm-12 relative">
+          <h2 class="vertical-form-text"> your brand </h2>
         </div>
 
-        <div class="floating-input">
-          <input type="text" name="email" placeholder="Your Email Address" class="input-text" required="">
-          <label class="input-label">Your Email Address</label>
+        <div class="col-8_sm-12 padded-2">
+          <div class="floating-input">
+            <textarea name="your-brand" placeholder="Tell me a little bit more about business" class="input-text" required=""></textarea>
+            <label class="input-label">Your Business</label>
+          </div>
+
+          <div class="floating-input">
+            <select name="attending" id="attending" required="">
+              <option class="editable">What service do you require?</option>
+              <option class="editable" value="Personal Training">Website Copywriting</option>
+              <option class="editable" value="Senior Fitness">Blogging</option>
+              <option class="editable" value="Youth & Childrens Fitness">Social Media Content</option>
+              <option class="editable" value="Senior Fitness">Coywriting</option>
+            </select>
+          </div>
+          <input type="hidden" name="_to" value="cputt.187@gmail.com">
+          <input type="text" name="_gotcha" style="display: none;">
+          <input type="submit" value="Send Message" class="button">
         </div>
-
-        <div class="floating-input">
-          <input type="text" name="whatsapp" placeholder="Your WhatsApp (if preferred)" class="input-text">
-          <label class="input-label">Your WhatsApp</label>
-        </div>
-
-      </div>
-    </div>
-    <div class="grid padded">
-
-      <div class="col-2_sm-12 relative">
-        <h2 class="sm-bold vertical-form-text"> your brand </h2>
-      </div>
-
-      <div class="col-10_sm-12 padded-2">
-        <div class="floating-input">
-          <textarea name="your-brand" placeholder="Tell us a little bit more about business or brand" class="input-text" required=""></textarea>
-          <label class="input-label">Your Brand</label>
-        </div>
-
-        <div class="floating-input">
-          <textarea name="message" placeholder="What services do you require? Web Development,Photography, etc..." class="input-text" required="What services do you require? Web Development, Photography, etc..."></textarea>
-          <label class="input-label">Your Message</label>
-        </div>
-        <input type="hidden" name="_to" value="hello@candyandtheking.com">
-        <input type="text" name="_gotcha" style="display: none;">
-      <input type="submit" value="Send Message" class="button-solid">
-  </form>
+    </form>
   </section>
 </section>
