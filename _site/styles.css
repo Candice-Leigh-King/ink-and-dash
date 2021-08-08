@@ -103,6 +103,10 @@ a {
     text-decoration: none;
 }
 
+p a {color: #adadad;}
+
+p a:hover {color:#1c1c1c;}
+
 .white h4 {color: #e6e4e3;}
 .white h3 {color: #adadad;}
 .white p {color: #adadad;}
