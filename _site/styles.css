@@ -162,6 +162,7 @@ header nav   {padding-top: 10%;}
   min-height: 100vh;
   }
 
+
 .banner-fixed
   {
   background-size: cover;
@@ -180,7 +181,7 @@ header nav   {padding-top: 10%;}
   {
   background-size: cover;
   background-position: center;
-  min-height: 10rem;
+  min-height: 20rem;
   }
 
 .fixed
