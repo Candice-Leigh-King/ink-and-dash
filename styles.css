@@ -416,10 +416,11 @@ h4 {font-size: 1.2rem;}
   {
   transform: translateX(0%) translateY(0%) rotate(0deg);
   position: relative;
+  font-size: 1.7rem;
   top: 0%;
   left: 0%;
   }
 
 .input-text {font-size: 1rem;}
 
-select, textarea {font-size: 1rem;}  
+select, textarea {font-size: 1rem;}
