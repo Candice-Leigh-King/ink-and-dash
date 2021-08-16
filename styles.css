@@ -403,12 +403,19 @@ h4 {font-size: 1.2rem;}
 .white p {font-size: 0.8rem;}
 
 
-.flex-flip{
-  flex-direction: row;
-}
+.flex-flip {flex-direction: row;}
 
-.banner-fixed {
+.banner-fixed
+  {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
+  }
+
+.vertical-form-text
+  {
+  transform: translateX(0%) translateY(0%) rotate(0deg);
+  position: relative;
+  top: 0%;
+  left: 0%;
+  }
