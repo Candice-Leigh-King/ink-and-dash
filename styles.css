@@ -166,13 +166,12 @@ header nav   {padding-top: 10%;}
   min-height: 100vh;
   }
 
-
 .banner-fixed
   {
   background-size: cover;
-  background-position: center;
-  background-attachment: scroll;
-  }
+  background-position: top;
+  background-attachment: fixed;
+    }
 
 .short-banner
   {
@@ -412,7 +411,7 @@ h4 {font-size: 1.2rem;}
 .banner-fixed
   {
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-attachment: fixed;
   }
 
