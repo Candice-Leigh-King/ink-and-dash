@@ -49,6 +49,7 @@ body
 .padded-sides {padding: 0% 5%;}
 .padded-top {padding-top: 10%;}
 
+.padded-top-footer {padding-top: 5%;}
 
 p {
   line-height: 1.4;
@@ -136,7 +137,10 @@ nav a
   margin-bottom: 0.2%;
   padding-top: 1rem;
   text-transform: lowercase;
+  color: rgb(120,120,125);
   }
+
+.built a:hover  {color: #4d6373;}
 
 .built a {padding: 1rem;}
 
