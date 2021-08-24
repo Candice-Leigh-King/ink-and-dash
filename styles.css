@@ -351,6 +351,18 @@ input[type=submit]
   color: rgb(120,120,125);
   }
 
+  .input-text:focus
+    {
+    border-color: #4d6373;
+    }
+
+  input:focus, textarea:focus
+    {
+    outline: 0;
+    border: 2x solid #4d6373;
+    }
+
+
 select, textarea
   {
   font-size: 1.2rem;
