@@ -19,7 +19,6 @@ COLORS
 html
   {
   scroll-behavior: smooth; /* this enables smooth scrolling between internal links */
-  overflow: hidden;
   }
 
 img
