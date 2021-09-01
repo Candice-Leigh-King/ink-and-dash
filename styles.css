@@ -106,7 +106,7 @@ p a:hover {color:#1c1c1c;}
 
 .white h4 {color: #e6e4e3;}
 .white h3 {color: #adadad;}
-.white p {color: #adadad;}
+.white p {color: #adadad; font-size: 1.2}
 
 .smaller-h1 {
   font-size: 2rem;
@@ -412,7 +412,7 @@ h3 {font-size: 1.2rem;}
 
 h4 {font-size: 1.2rem;}
 
-.white p {font-size: 1rem;}
+.white p {font-size: 0.8rem;}
 
 
 .flex-flip {flex-direction: row;}
