@@ -109,6 +109,7 @@ p a:hover {color:#1c1c1c;}
 .white h3 {color: #adadad;}
 .white p {color: #adadad; font-size: 1.2rem;}
 .emphasis a:hover {color: #adadad; }
+.white .emphasis a:hover {color: #1c1c1c;}
 
 .smaller-h1 {
   font-size: 2rem;
