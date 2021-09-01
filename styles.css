@@ -51,12 +51,6 @@ body
 
 .padded-top-footer {padding-top: 5%;}
 
-p {
-  line-height: 1.4;
-  font-size: 1.2rem;
-  margin-bottom: 0.8rem;
-  }
-
 h1:last-child,
 h2:last-child,
 h3:last-child,
@@ -96,6 +90,8 @@ h4
   }
 
 p {
+  line-height: 1.4;
+  margin-bottom: 0.8rem;
   font-size: 1rem;
   color: #1c1c1c;}
 
@@ -416,7 +412,7 @@ h3 {font-size: 1.2rem;}
 
 h4 {font-size: 1.2rem;}
 
-.white p {font-size: 0.8rem;}
+.white p {font-size: 1rem;}
 
 
 .flex-flip {flex-direction: row;}
