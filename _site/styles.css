@@ -48,14 +48,10 @@ body
 .padded-1 {  padding: 1rem;  }
 .padded-sides {padding: 0% 5%;}
 .padded-top {padding-top: 10%;}
+.padded-top-05 {padding-top: 5%;}
+.padded-review {padding: 0% 15%;}
 
 .padded-top-footer {padding-top: 5%;}
-
-p {
-  line-height: 1.4;
-  font-size: 1rem;
-  margin-bottom: 0.8rem;
-  }
 
 h1:last-child,
 h2:last-child,
@@ -96,6 +92,8 @@ h4
   }
 
 p {
+  line-height: 1.4;
+  margin-bottom: 0.8rem;
   font-size: 1rem;
   color: #1c1c1c;}
 
@@ -110,7 +108,9 @@ p a:hover {color:#1c1c1c;}
 
 .white h4 {color: #e6e4e3;}
 .white h3 {color: #adadad;}
-.white p {color: #adadad;}
+.white p {color: #adadad; font-size: 1.2rem;}
+.emphasis a:hover {color: #adadad; }
+.white a:hover {color: #4d6373;}
 
 .smaller-h1 {
   font-size: 2rem;
@@ -183,8 +183,16 @@ header nav   {padding-top: 10%;}
 .image-bg
   {
   background-size: cover;
-  background-position: center;
+  background-position: 50% 43%;
   min-height: 20rem;
+  }
+
+.review-bg
+  {
+  background-size: cover;
+  background-position: 155px 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
   }
 
 .fixed
@@ -332,7 +340,7 @@ input[type=submit]
   white-space: nowrap;
   top: 50%;
   left: 50%;
-  color: #adadad;
+  color: #4d6373;
   }
 
 .input-text
@@ -350,6 +358,18 @@ input[type=submit]
   font-family: 'Alice', serif;
   color: rgb(120,120,125);
   }
+
+  .input-text:focus
+    {
+    border-color: #4d6373;
+    }
+
+  input:focus, textarea:focus
+    {
+    outline: 0;
+    border: 2x solid #4d6373;
+    }
+
 
 select, textarea
   {
@@ -394,6 +414,7 @@ form .button:hover
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
 
+p {font-size: 1rem;}
 
 h1 {font-size: 2rem;}
 
@@ -404,6 +425,14 @@ h3 {font-size: 1.2rem;}
 h4 {font-size: 1.2rem;}
 
 .white p {font-size: 0.8rem;}
+
+.padded-review {padding: 0% 5%;}
+
+.review-bg
+  {
+  background-size: cover;
+  background-position: 78px 0px;
+  }
 
 
 .flex-flip {flex-direction: row;}

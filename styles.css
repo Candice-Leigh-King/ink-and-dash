@@ -49,6 +49,7 @@ body
 .padded-sides {padding: 0% 5%;}
 .padded-top {padding-top: 10%;}
 .padded-top-05 {padding-top: 5%;}
+.padded-review {padding: 0% 15%;}
 
 .padded-top-footer {padding-top: 5%;}
 
@@ -184,6 +185,14 @@ header nav   {padding-top: 10%;}
   background-size: cover;
   background-position: 50% 43%;
   min-height: 20rem;
+  }
+
+.review-bg
+  {
+  background-size: cover;
+  background-position: 155px 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
   }
 
 .fixed
@@ -416,6 +425,14 @@ h3 {font-size: 1.2rem;}
 h4 {font-size: 1.2rem;}
 
 .white p {font-size: 0.8rem;}
+
+.padded-review {padding: 0% 5%;}
+
+.review-bg
+  {
+  background-size: cover;
+  background-position: 78px 0px;
+  }
 
 
 .flex-flip {flex-direction: row;}
