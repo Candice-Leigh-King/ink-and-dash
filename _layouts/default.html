@@ -62,26 +62,15 @@
       :root {
         --headings: {{page.theme.headings_color}};
         --paragraphs: {{page.paragraphs_color}};
-        --body: {{page.body_color}};
         --darkBackground: {{page.dark_background_color}};
         --darkBackgroundTextColor: {{page.dark_background_text_color}};
       }
       h1, h2, h3
-      {
-      color: var(--headings);
-      }
-      body
-      {
-      background-color: var(--body);
-      }
+      {color: var(--headings);}
       .dark_background_color
-      {
-      background-color: var (--darkBackground);
-      }
+      {background-color: var (--darkBackground);}
       .dark_background_color *
-      {
-      color: var(--darkBackgroundTextColor);
-      }
+      {color: var(--darkBackgroundTextColor);}
     </style>
 
 </head>
