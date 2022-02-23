@@ -58,6 +58,31 @@
 
     <!-- our own custom stylesheet -->
     <link rel="stylesheet" href="/styles.css" />
+    <style>
+      :root {
+        --headings: {{site.data.colors.headings_color}};
+        --paragraphs: {{site.data.colors.paragraphs_color}};
+        --body: {{site.data.colors.body_color}};
+        --darkBackground: {{site.data.colors.dark_background_color}};
+        --darkBackgroundTextColor: {{site.data.colors.dark_background_text_color}};
+      }
+      h1, h2, h3
+      {
+      color:  var(--headings);
+      }
+      body
+      {
+      background-color: var(--body);
+      }
+      .dark_background_color
+      {
+      background-color: var (--darkBackground);
+      }
+      .dark_background_color *
+      {
+      color: var(--darkBackgroundTextColor);
+      }
+    </style>
 
 </head>
 <body>
