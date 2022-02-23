@@ -58,33 +58,33 @@
 
     <!-- our own custom stylesheet -->
     <link rel="stylesheet" href="/styles.css" />
-</head>
-<style>
-  :root {
-    --headings: {{data.colors.headings_color}};
-    --paragraphs: {{data.colors.paragraphs_color}};
-    --body: {{data.colors.body_color}};
-    --darkBackground: {{data.colors.dark_background_color}};
-    --darkBackgroundTextColor: {{data.colors.dark_background_text_color}};
-  }
-  h1, h2, h3
-  {
-  color: var(--headings);
-  }
-  body
-  {
-  background-color: var(--body);
-  }
-  .dark_background_color
-  {
-  background-color: var (--darkBackground);
-  }
-  .dark_background_color *
-  {
-  color: var(--darkBackgroundTextColor);
-  }
-</style>
+    <style>
+      :root {
+        --headings: {{data.colors.headings_color}};
+        --paragraphs: {{data.colors.paragraphs_color}};
+        --body: {{data.colors.body_color}};
+        --darkBackground: {{data.colors.dark_background_color}};
+        --darkBackgroundTextColor: {{data.colors.dark_background_text_color}};
+      }
+      h1, h2, h3
+      {
+      color: var(--headings);
+      }
+      body
+      {
+      background-color: var(--body);
+      }
+      .dark_background_color
+      {
+      background-color: var (--darkBackground);
+      }
+      .dark_background_color *
+      {
+      color: var(--darkBackgroundTextColor);
+      }
+    </style>
 
+</head>
 <body>
 
   <header class="grid_sm-hidden dark-bg">
