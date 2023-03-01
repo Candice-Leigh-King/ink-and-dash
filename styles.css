@@ -239,7 +239,7 @@ header nav   {padding-top: 10%;}
 
 /* MOBILE MENU */
 
-.mob-show {display: none;}
+.desktop-hide {display: none;}
 
 .hamburger
   {
@@ -417,7 +417,7 @@ form .button:hover
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
   
-   .mob-show {display: inline;}
+   .desktop-hide {display: inline;}
 
 p {font-size: 1rem;}
 
