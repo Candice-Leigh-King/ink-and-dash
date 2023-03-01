@@ -405,10 +405,11 @@ form .button:hover
   border: 1px solid #c8c4c4;
   }
 
-
+ .desktop-hide {display: none;}
+}
 
 @media(min-width:769px){
-  .desktop-hide {display: none;}
+  .desktop-hide {display: inline;}
 }
 /*
 /* This media query kicks into action at the gridlex sm breakpoint */
