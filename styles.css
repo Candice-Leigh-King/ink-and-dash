@@ -413,7 +413,7 @@ form .button:hover
 @media(min-width:769px)
 {
   
-  .desktop-hide {display: none;}
+.desktop-hide {display: none;}
   
 }
 /*
