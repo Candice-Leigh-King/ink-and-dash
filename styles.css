@@ -415,7 +415,7 @@ form .button:hover
 }
 /*
 /* This media query kicks into action at the gridlex sm breakpoint */
-@media(max-width:768px) {
+@media(max-width:769px) {
   
    .desktop-hide {display: inline;}
 
