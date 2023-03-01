@@ -239,6 +239,8 @@ header nav   {padding-top: 10%;}
 
 /* MOBILE MENU */
 
+.desktop-hide {display: none;}
+
 .hamburger
   {
   top: 0;
@@ -405,7 +407,7 @@ form .button:hover
   border: 1px solid #c8c4c4;
   }
 
- .desktop-hide {display: none;}
+ 
 
 
 @media(min-width:769px){
