@@ -410,12 +410,16 @@ form .button:hover
  
 
 
-@media(min-width:769px){
+@media(min-width:769px)
+{
+  
   .desktop-hide {display: none;}
+  
 }
 /*
 /* This media query kicks into action at the gridlex sm breakpoint */
-@media(max-width:768px) {
+@media(max-width:768px) 
+{
   
   
 
