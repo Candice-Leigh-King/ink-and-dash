@@ -239,7 +239,7 @@ header nav   {padding-top: 10%;}
 
 /* MOBILE MENU */
 
-.desktop-hide {display: none;}
+.mob-show {display: none;}
 
 .hamburger
   {
