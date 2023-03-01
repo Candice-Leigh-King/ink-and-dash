@@ -409,11 +409,13 @@ form .button:hover
 
 
 @media(min-width:769px){
-  .desktop-hide {display: inline;}
+ 
 }
 /*
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
+  
+   .desktop-hide {display: inline;}
 
 p {font-size: 1rem;}
 
