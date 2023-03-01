@@ -406,7 +406,7 @@ form .button:hover
   }
 
  .desktop-hide {display: none;}
-}
+
 
 @media(min-width:769px){
   .desktop-hide {display: inline;}
