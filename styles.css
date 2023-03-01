@@ -417,7 +417,7 @@ form .button:hover
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
   
-   /*.desktop-hide {display: inline;}*/
+   .mob-show {display: inline;}
 
 p {font-size: 1rem;}
 
